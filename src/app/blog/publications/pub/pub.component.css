@@ -1,0 +1,12 @@
+h6{
+    color: rgb(17, 152, 161); 
+    display: inline-block;
+}
+.active{
+    background-color: rgba(161, 158, 158, 0.671);
+    color: black;
+}
+.top{
+    border: 2px solid black;
+    border-radius: 4%;
+}

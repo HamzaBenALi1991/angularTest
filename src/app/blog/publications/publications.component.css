@@ -1,0 +1,5 @@
+.cool{
+    background-attachment: fixed;
+    max-height: 1000px;
+    overflow-y:scroll;
+}

@@ -1,0 +1,13 @@
+<div   class="row justify-content-center cool">
+  <div class="col-10">
+    <button class="btn btn-success" (click)="onAddnew()">add new publication</button>
+    <hr />
+
+    <app-pub
+   
+      *ngFor="let item of publication; let i = index"
+      [element]="item"
+      [iindex]="i"
+    ></app-pub>
+  </div>
+</div>

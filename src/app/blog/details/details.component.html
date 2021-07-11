@@ -1,0 +1,18 @@
+<div  class="row "  style="margin-top: 100px;" >
+  <h2> {{element.titre }}</h2>
+  <hr />
+  <h4>Description :</h4>
+  <p>  {{element.description}} </p>
+  <h4>Catégorie :</h4>
+  <p> {{element.categorie}} </p>
+  <h3>Date de Creation :</h3>
+  <small> {{element.date | date :'medium'}} </small>
+  <div class="row justify-content-inbetween">
+    <div class="col-4">
+      <button  (click)='onEdit()'  class="btn btn-primary">Update</button>
+    </div>
+    <div class="col-4">
+      <button type="button" (click)='ondelete()' class="btn btn-danger">Delete</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<a
+  routerLinkActive='active'
+  [routerLink]='[iindex]'
+  class="list-group-item list-group-item-action clearfix top"
+  style="cursor: pointer ;"
+
+>
+
+  <h3 style="color: blue">{{ element.titre }}</h3>
+  <hr />
+  <h6>Descritpion :</h6>
+  <p>{{ element.description |slice:0:10 }} ...</p>
+  <h6>Catégorie</h6>
+  <p><strong> {{ element.categorie }} </strong></p>
+  <h6>date de creation : </h6>  <p><span>{{ element.date | date :'medium'}}</span></p>
+</a>
